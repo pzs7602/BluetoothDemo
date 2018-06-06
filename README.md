@@ -24,3 +24,5 @@
  when it received the read request. The central then sends a write request to peripheral when it receives the read data. 
  The peripheral display the write data, central receives the response of success of write data and send the read request for sencond time.
  The peripheral receives this request and send data "WriteOK", central display this data when received.
+# Environment
+Xcode 9.0+/Swift 4.1
